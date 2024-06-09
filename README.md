@@ -1,6 +1,6 @@
 # GhusnCloudServices.ASPNETCORE.Publisher
 
-GhusnCloudServices.ASPNETCORE.Publisher is a .NET tool that automates the process of publishing ASP.NET Core projects to a Linux-x64 target.
+GhusnCloudServices.ASPNETCORE.Publisher is a .NET tool designed to automate the publishing of ASP.NET Core projects to a Linux-x64 target.
 
 ## Installation
 

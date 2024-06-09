@@ -1,0 +1,29 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net6.0</TargetFramework>
+    <PackAsTool>true</PackAsTool>
+    <ToolCommandName>publish-project</ToolCommandName>
+
+    <!-- NuGet Package Info -->
+    <PackageId>GhusnCloudServices.ASPNETCORE.Publisher</PackageId>
+    <Version>1.0.0</Version>
+    <Authors>Ghusn-Tech</Authors>
+    <Company>Ghusn-Tech</Company>
+    <Description>GhusnCloudServices.ASPNETCORE.Publisher is a .NET tool designed to automate the publishing of ASP.NET Core projects to a Linux-x64 target.</Description>
+    <PackageTags>dotnet-tool;aspnetcore;publish;linux</PackageTags>
+    <RepositoryUrl>https://github.com/Ghusn-Tech/GhusnCloudServices.ASPNETCORE.Publisher</RepositoryUrl>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <PackageLicenseFile>LICENSE</PackageLicenseFile>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Build.Locator" Version="1.4.1" />
+    <PackageReference Include="System.IO.Compression" Version="4.3.0" />
+    <PackageReference Include="System.IO.Compression.ZipFile" Version="4.3.0" />
+    <None Include="README.md" Pack="true" PackagePath="" />
+    <None Include="LICENSE" Pack="true" PackagePath="" />
+  </ItemGroup>
+
+</Project>
